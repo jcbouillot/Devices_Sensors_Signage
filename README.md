@@ -9,10 +9,8 @@
 <ul>
   <li dir="auto">Step 1 : Enable Digital Signage on the codec</li>
   <li dir="auto">
-    Step 2 : upload the macro (RoomSeriesNavigator.js) on the codec to access the name &amp;
-    sensors
-  </li>
-  <li dir="auto">
+    Step 2 : Upload the macro (RoomSeriesNavigator.js) on the codec to access the name &amp;
+    sensors <br/>
     The URL of Digital Signage is a Github page where the HTML page is serve for
     all codecs
   </li>
