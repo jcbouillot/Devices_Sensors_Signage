@@ -3,7 +3,7 @@
   <strong>Display Sensors from codecs on a Digital Signage Page</strong>
 </h4>
 <p dir="auto">
-  Access sensors from Cisco Codecs locally and display them on a Digital signage
+  Access sensors from <a href="https://projectworkplace.cisco.com/products/codecs" target="_blank" rel="noopener">Cisco Codecs</a> locally and display them on a Digital signage
   page
 </p>
 <ul>
