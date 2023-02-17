@@ -29,4 +29,4 @@ async function updateUrl() {
   console.log('signage url updated:', url);
 }
 
-setInterval(updateUrl, 1000 * updateSec);
+setInterval(updateUrl, 100 * updateSec);
