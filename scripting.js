@@ -23,6 +23,7 @@ function myFunction() {
     var pccur = getUrlParameter('pccur');
     var peoplecount = getUrlParameter('peoplecount');
     var sound = getUrlParameter('sound');
+    var ppresence = getUrlParameter('ppresence');
     
     document.getElementById("test-humidity").innerHTML = humidity;
     document.getElementById("test-temp").innerHTML = temp;
@@ -31,4 +32,5 @@ function myFunction() {
     document.getElementById("test-airquality").innerHTML = airquality;
     document.getElementById("test-peoplecount").innerHTML = peoplecount;
     document.getElementById("test-sound").innerHTML = sound;
+    document.getElementById("test-ppresence").innerHTML = ppresence;
     }
