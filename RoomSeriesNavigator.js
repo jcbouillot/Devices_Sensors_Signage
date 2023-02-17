@@ -1,3 +1,5 @@
+// Macro to be uploaded in the endpoint
+
 import xapi from 'xapi';
 
 //init config
@@ -20,10 +22,11 @@ async function updateUrl() {
   const pccur = await xapi.Status.RoomAnalytics.PeopleCount.Current.get()
   const pccap = await xapi.Status.RoomAnalytics.PeopleCount.Capacity.get()
   const sound = await xapi.Status.RoomAnalytics.Sound.Level.A.get()
+  const ppresence = await xapi.Status.RoomAnalytics.PeoplePresence.get()
 
-  const url = baseUrl + '?temp=' + temp + '&humidity=' + hum + '&ambientnoise=' +anoise + '&name=' + name + '&airquality=' + airquality + '&peoplecount=' + pccur + '/' + pccap + '&sound=' + sound;
+  const url = baseUrl + '?temp=' + temp + '&humidity=' + hum + '&ambientnoise=' +anoise + '&name=' + name + '&airquality=' + airquality + '&peoplecount=' + pccur + '/' + pccap + '&sound=' + sound + '&ppresence=' + ppresence;
   xapi.Config.Standby.Signage.Url.set(url);
   console.log('signage url updated:', url);
 }
 
-setInterval(updateUrl, 1000 * updateSec);  
+setInterval(updateUrl, 1000 * updateSec);
