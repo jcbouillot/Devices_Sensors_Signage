@@ -8,7 +8,7 @@ xapi.Config.HttpClient.AllowInsecureHTTPS.set('True');
 xapi.Config.HttpClient.Mode.set('On');
 xapi.Config.RoomAnalytics.AmbientNoiseEstimation.Mode.set('On');
 
-const baseUrl = 'https://jcbouillot.github.io/Devices_Sensors_Signage/roomseriesnavigator.html';
+const baseUrl = 'https://jcbouillot.github.io/RoomSeries_Sensors_Signage/roomseriesnavigator.html';
 
 //Update frequency
 const updateSec = 300;
