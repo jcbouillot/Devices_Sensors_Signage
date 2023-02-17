@@ -8,14 +8,14 @@
 <ul>
   <li dir="auto">Step 1 : Enable Digital Signage on the codec</li>
   <li dir="auto">
-    Step 2 : upload the macro (JS File) on the codec to access the name &amp;
+    Step 2 : upload the macro (RoomSeriesNavigator.js) on the codec to access the name &amp;
     sensors
   </li>
   <li dir="auto">
-    The url of digital signage is a github page where the html page is serve for
+    The URL of Digital Signage is a Github page where the HTML page is serve for
     all codecs
   </li>
   <li dir="auto">
-    Step 3 : verify the codec can access the url of the digital signage
+    Step 3 : Verify the codec can access the URL of the Digital Signage
   </li>
 </ul>
