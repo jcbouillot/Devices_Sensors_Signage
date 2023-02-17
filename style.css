@@ -20,7 +20,7 @@
     
 }
 body {
-font-family: 'Ubuntu';
+font-family: 'Ubuntu', sans-serif;
 text-align: center;
 color:white;
   padding: 1em;
