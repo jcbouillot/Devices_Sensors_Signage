@@ -1,12 +1,15 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<script src="scripting.js"></script>
+<script src="./scripting.js"></script>
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 
@@ -31,15 +34,15 @@
     </div>
     <div class="row sensorBoxesRow">
         <div class="sensorbox col-md-3">
-            <h1 class="sensorTitle">🌡️ Temperature</h1>
+            <h1 class="sensorTitle"><img src='./Temp.png'> Temperature</h1>
             <h2 class="sensorValue"><span id="test-temp"></span> °C</h2>
         </div>
         <div class="sensorbox offset-1 col-md-3">
-            <h1 class="sensorTitle">💧 Humidity</h1>
+            <h1 class="sensorTitle"><img src='./Humidity.png'> Humidity</h1>
             <h2 class="sensorValue"><span id="test-humidity"></span> %</h2>
         </div>
         <div class="sensorbox offset-1 col-md-3">
-            <h1 class="sensorTitle">💨 Air Quality</h1>
+            <h1 class="sensorTitle"><img src='./TVOC.png'> Air Quality</h1>
             <h2 class="sensorValue"><span id="test-airquality"></span> TVOC</h2>
         </div>
     </div>
@@ -51,15 +54,15 @@
     
     <div class="row sensorBoxesRow">
         <div class="sensorbox col-md-3">
-            <h1 class="sensorTitle">👤 Occupancy</h1>
+            <h1 class="sensorTitle"><img src='./Occupancy.png'> Occupancy</h1>
             <h2 class="sensorValue"><span id="test-peoplecount"></span></h2>
         </div>
         <div class="sensorbox offset-1 col-md-3">
-            <h1 class="sensorTitle">🔊 Sound Level</h1>
+            <h1 class="sensorTitle"><img src='./Sound.png'> Sound Level</h1>
             <h2 class="sensorValue"><span id="test-sound"></span> DBA</h2>
         </div> 
         <div class="sensorbox offset-1 col-md-3">
-            <h1 class="sensorTitle">🔉 Amb. Noise</h1>
+            <h1 class="sensorTitle"><img src='./AmbNoise.png'> Amb. Noise</h1>
             <h2 class="sensorValue"><span id="test-ambientnoise"></span> DBA</h2>
         </div> 
     </div>
@@ -71,7 +74,7 @@
 
     <div class="row sensorBoxesRow">
         <div class="sensorbox col-md-3">
-            <h1 class="sensorTitle">👤 Presence</h1>
+            <h1 class="sensorTitle"><img src='./Presence.png'> Presence</h1>
             <h2 class="sensorValue"><span id="test-ppresence"></span></h2>
     </div>
 </div>
