@@ -12,7 +12,7 @@
     Step 2 : Upload the macro (RoomSeriesNavigator.js) on the codec to access the name &amp;
     sensors <br/>
     The URL of Digital Signage is a Github page where the HTML page is serve for
-    all codecs
+    all codecs (ie. <a href="https://jcbouillot.github.io/RoomSeries_Sensors_Signage/roomseriesnavigator.html">https://jcbouillot.github.io/RoomSeries_Sensors_Signage/roomseriesnavigator.html</a>)
   </li>
   <li dir="auto">
     Step 3 : Verify the codec can access the URL of the Digital Signage
