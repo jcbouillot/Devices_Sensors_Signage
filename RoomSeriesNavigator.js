@@ -7,6 +7,9 @@ xapi.Config.HttpClient.AllowHTTP.set('True');
 xapi.Config.HttpClient.AllowInsecureHTTPS.set('True');
 xapi.Config.HttpClient.Mode.set('On');
 xapi.Config.RoomAnalytics.AmbientNoiseEstimation.Mode.set('On');
+xapi.Config.RoomAnalytics.PeopleCountOutOfCall.set('On');
+xapi.Config.RoomAnalytics.PeoplePresenceDetector.set('On');
+xapi.Config.RoomAnalytics.ReverberationTime.Mode.set('On');
 
 const baseUrl = 'https://jcbouillot.github.io/RoomSeries_Sensors_Signage/roomseriesnavigator.html';
 
