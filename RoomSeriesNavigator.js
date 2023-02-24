@@ -26,8 +26,10 @@ async function updateUrl() {
   const pccap = await xapi.Status.RoomAnalytics.PeopleCount.Capacity.get();
   const sound = await xapi.Status.RoomAnalytics.Sound.Level.A.get();
   const ppresence = await xapi.Status.RoomAnalytics.PeoplePresence.get();
+  const bookings = await xapi.Status.Bookings.Availability.Status.get();
+  const bookingstime = await xapi.Status.Bookings.Availability.TimeStamp.get();
 
-  const url = baseUrl + '?temp=' + temp + '&humidity=' + hum + '&ambientnoise=' +anoise + '&name=' + name + '&airquality=' + airquality + '&peoplecount=' + pccur + '/' + pccap + '&sound=' + sound + '&ppresence=' + ppresence;
+  const url = baseUrl + '?temp=' + temp + '&humidity=' + hum + '&ambientnoise=' +anoise + '&name=' + name + '&airquality=' + airquality + '&peoplecount=' + pccur + '/' + pccap + '&sound=' + sound + '&ppresence=' + ppresence + '&bookings=' + bookings + '&bookingstime=' + bookingstime;
   xapi.Config.Standby.Signage.Url.set(url);
   console.log('signage url updated:', url);
 }

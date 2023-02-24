@@ -24,6 +24,8 @@ function myFunction() {
     var peoplecount = getUrlParameter('peoplecount');
     var sound = getUrlParameter('sound');
     var ppresence = getUrlParameter('ppresence');
+    var bookings = getUrlParameter('bookings');
+    var bookingstime = getUrlParameter('bookingstime');
     
     document.getElementById("test-humidity").innerHTML = humidity;
     document.getElementById("test-temp").innerHTML = temp;
@@ -33,4 +35,7 @@ function myFunction() {
     document.getElementById("test-peoplecount").innerHTML = peoplecount;
     document.getElementById("test-sound").innerHTML = sound;
     document.getElementById("test-ppresence").innerHTML = ppresence;
+    document.getElementById("test-bookings").innerHTML = bookings;
+    document.getElementById("test-bookingstime").innerHTML = bookingstime;
+
     }
