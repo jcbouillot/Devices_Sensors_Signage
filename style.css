@@ -34,5 +34,5 @@ align-items: center;
 justify-content: center;
   background: url('./webex_bg.jpg') no-repeat center fixed; 
   -webkit-background-size: cover; /* Old Chrome and Safari */
-  background-size: cover; /* version standardisée */
+  background-size: cover; /* standardized version */
 }
