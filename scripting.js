@@ -14,18 +14,6 @@ function myFunction() {
         }
         return false;
     };
- 
-    function formatDate(dateToFormat){
-    dateToFormat = new Date(dateToFormat)
-    return dateToFormat.getDay() + '/'+dateToFormat.getMonth()+1 +'/'+dateToFormat.getFullYear()
-    }
-
-    function formatText(test-bookings){
-    if(bookings === 'FreeUntil')
-        return 'Free until'
-    if(bookings === 'BookedUntil')
-        return 'Booked until'
-    };
     
     var humidity = getUrlParameter('humidity');
     var temp = getUrlParameter('temp');
