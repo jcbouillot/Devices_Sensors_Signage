@@ -15,7 +15,7 @@ function myFunction() {
         return false;
     };
     
-    function formatText(bookings){
+    function formatText(BARbookings){
     if('BARbookings' === 'FreeUntil')
         return 'Free until'
     if('BARbookings' === 'BookedUntil')
