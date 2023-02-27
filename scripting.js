@@ -15,10 +15,10 @@ function myFunction() {
         return false;
     };
     
-    function formatText(BARbookings){
-    if('BARbookings' === 'FreeUntil')
+    function formatText(bookings){
+    if('bookings' === 'FreeUntil')
         return 'Free until'
-    if('BARbookings' === 'BookedUntil')
+    if('bookings' === 'BookedUntil')
         return 'Booked until'
     };
     
