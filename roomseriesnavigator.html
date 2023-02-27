@@ -83,10 +83,10 @@ function formatDate(dateToFormat){
     return dateToFormat.getDay() + '/'+dateToFormat.getMonth()+1 +'/'+dateToFormat.getFullYear()
 }
 
-function formatText(Bookings){
-    if(Bookings === 'FreeUntil')
+function formatText(bookings){
+    if(bookings === 'FreeUntil')
         return 'Free until'
-    if(Bookings === 'BookedUntil')
+    if(bookings === 'BookedUntil')
         return 'Booked until'
 }
 </script>
