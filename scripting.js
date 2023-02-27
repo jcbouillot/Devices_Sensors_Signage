@@ -20,10 +20,10 @@ function myFunction() {
     return dateToFormat.getDay() + '/'+dateToFormat.getMonth()+1 +'/'+dateToFormat.getFullYear()
     }
 
-    function formatText(bookings){
-    if(test-bookings === 'FreeUntil')
+    function formatText(test-bookings){
+    if(bookings === 'FreeUntil')
         return 'Free until'
-    if(test-bookings === 'BookedUntil')
+    if(bookings === 'BookedUntil')
         return 'Booked until'
     };
     
