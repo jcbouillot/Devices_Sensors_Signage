@@ -4,7 +4,7 @@
               0 0 0 5px rgb(230, 85, 0), 
               0 0 0 7px rgb(255, 85, 0);
   border-radius: 40px;
-background:black;
+background: rgba(0, 0, 0, 0.500);
 padding: 20px;
 width: 200px;
 height: 150px;
@@ -32,7 +32,7 @@ flex-direction: column;
 height: 100%;
 align-items: center;
 justify-content: center;
-  background: url('./webex_bg.jpg') no-repeat center fixed; 
+  background: url('./webex_dark.jpg') no-repeat center fixed; 
   -webkit-background-size: cover; /* Old Chrome and Safari */
   background-size: cover; /* standardized version */
 }
