@@ -15,6 +15,13 @@ function myFunction() {
         return false;
     };
     
+    function formatText(bookings){
+    if('BARbookings' === 'FreeUntil')
+        return 'Free until'
+    if('BARbookings' === 'BookedUntil')
+        return 'Booked until'
+    };
+    
     var humidity = getUrlParameter('humidity');
     var temp = getUrlParameter('temp');
     var ambientnoise = getUrlParameter('ambientnoise');
