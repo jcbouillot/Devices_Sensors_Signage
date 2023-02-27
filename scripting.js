@@ -39,15 +39,15 @@ function myFunction() {
     var bookings = getUrlParameter('bookings');
     var bookingstime = getUrlParameter('bookingstime');
     
-    document.getElementById("test-humidity").innerHTML = humidity;
-    document.getElementById("test-temp").innerHTML = temp;
-    document.getElementById("test-ambientnoise").innerHTML = ambientnoise;
-    document.getElementById("test-name").innerHTML = name;
-    document.getElementById("test-airquality").innerHTML = airquality;
-    document.getElementById("test-peoplecount").innerHTML = peoplecount;
-    document.getElementById("test-sound").innerHTML = sound;
-    document.getElementById("test-ppresence").innerHTML = ppresence;
-    document.getElementById("test-bookings").innerHTML = bookings;
-    document.getElementById("test-bookingstime").innerHTML = bookingstime;
+    document.getElementById("NAVhumidity").innerHTML = humidity;
+    document.getElementById("NAVtemp").innerHTML = temp;
+    document.getElementById("BARambientnoise").innerHTML = ambientnoise;
+    document.getElementById("BARname").innerHTML = name;
+    document.getElementById("NAVairquality").innerHTML = airquality;
+    document.getElementById("BARpeoplecount").innerHTML = peoplecount;
+    document.getElementById("BARsound").innerHTML = sound;
+    document.getElementById("BARppresence").innerHTML = ppresence;
+    document.getElementById("BARbookings").innerHTML = bookings;
+    document.getElementById("BARbookingstime").innerHTML = bookingstime;
 
     }
